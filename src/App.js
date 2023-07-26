@@ -17,9 +17,9 @@ class App extends Component {
     e.preventDefault()
     const city = e.target.elements.city.value;
     const country = e.target.elements.country.value;
-    const api = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}%2C${country}&appid=${API_KEY}`)
+    const api = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}`)
     const data = await api.json();
-    if (city !== '' && country !== '') {
+    if (city !== '') {
       this.setState({
         temp: data.main.temp,
         city: data.name,
@@ -46,7 +46,7 @@ class App extends Component {
     return (
       <div className='wrapper'>
         <div className='form-container'>
-          <h1>Weather App by Mahmoud</h1>
+          <h1>Weather App by Mahmoudd</h1>
           <Form getweather={this.getweather} />
           <Weather
             temp={this.state.temp} city={this.state.city} country={this.state.country}
