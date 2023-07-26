@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mahmoud-weather-app/static/css/main.808f9d34.css",
+    "main.css": "/mahmoud-weather-app/static/css/main.24e671b0.css",
     "main.js": "/mahmoud-weather-app/static/js/main.49bf03bb.js",
     "static/js/787.d9312eb8.chunk.js": "/mahmoud-weather-app/static/js/787.d9312eb8.chunk.js",
     "index.html": "/mahmoud-weather-app/index.html",
-    "main.808f9d34.css.map": "/mahmoud-weather-app/static/css/main.808f9d34.css.map",
+    "main.24e671b0.css.map": "/mahmoud-weather-app/static/css/main.24e671b0.css.map",
     "main.49bf03bb.js.map": "/mahmoud-weather-app/static/js/main.49bf03bb.js.map",
     "787.d9312eb8.chunk.js.map": "/mahmoud-weather-app/static/js/787.d9312eb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.808f9d34.css",
+    "static/css/main.24e671b0.css",
     "static/js/main.49bf03bb.js"
   ]
 }
