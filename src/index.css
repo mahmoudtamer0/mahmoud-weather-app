@@ -23,12 +23,11 @@ body {
 
 .form-container {
   background-color: #2c5046;
-  height: 70vh;
-  padding: 0 50px 0 50px;
-  margin: auto;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
+  height: 80vh;
+  margin: auto;
+  padding: 0 50px;
+  border-radius: 13px;
 }
 
 input[type="text"] {
@@ -96,7 +95,7 @@ button:active {
 }
 
 h1 {
-  margin-bottom: 10px;
+  margin-bottom: 44px;
   font-size: 25px;
   text-align: center;
   color: #5ccab5;
