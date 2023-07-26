@@ -46,7 +46,7 @@ class App extends Component {
     return (
       <div className='wrapper'>
         <div className='form-container'>
-          <h1>Weather App by Mahmoudd</h1>
+          <h1>Weather App by Mahmoud</h1>
           <Form getweather={this.getweather} />
           <Weather
             temp={this.state.temp} city={this.state.city} country={this.state.country}
