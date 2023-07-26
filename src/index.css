@@ -23,11 +23,14 @@ body {
 
 .form-container {
   background-color: #2c5046;
+  border-radius: 13px;
   flex-direction: column;
   height: 80vh;
   margin: auto;
   padding: 0 50px;
-  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 input[type="text"] {
