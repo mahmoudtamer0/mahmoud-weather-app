@@ -112,3 +112,8 @@ h1 {
     padding: 0 18px 0 18px;
   }
 }
+
+.error {
+  color: rgb(255, 56, 56);
+  font-weight: bold;
+}
